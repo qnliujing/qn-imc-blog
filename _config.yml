@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
+title: 七牛HD 蛋蛋团队
+subtitle: 
+description: 
+keywords: 七牛, 蛋蛋团
+author: IMC
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://imc.iamlj.com/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -27,7 +27,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-€
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -78,7 +78,11 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+
 deploy:
   type: git
   repo: 
     github: git@github.com:qnliujing/qnliujing.github.io.git,master
+    # coding: https://git.coding.net/iamlj/iamlj.git,coding-pages # 暂时先关闭，转用速度更快的sae，等sae没钱了，再用coding
+    # sae: https://git.sinacloud.com/iamlj,1
+    # iamlj: git@112.74.185.158:hexo.git,master
