@@ -1,6 +1,7 @@
 build
 out
 .DS_Store
+.deploy_git
 /target/
 /__ConfigTemp/
 /.settings/
