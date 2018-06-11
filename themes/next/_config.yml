@@ -121,6 +121,7 @@ menu:
   #about: /about/ || user
   #tags: /tags/ || tags
   #categories: /categories/ || th
+  相册: /photos/ || photo
   archives: /archives/ || archive
   # schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
