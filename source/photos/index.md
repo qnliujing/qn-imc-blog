@@ -1,5 +1,5 @@
 ---
-title: 靓照
+title: 照片
 date: 2018-06-11 07:23:45
 type: "photos"
 comments: false
